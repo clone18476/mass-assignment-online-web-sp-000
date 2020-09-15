@@ -5,9 +5,9 @@ class Person
 end
 
 class Person
-  attr_accessor :name, :age
+  attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :handed, :complexion, :t_shirt_size, :wrist_size, :glove_size, :pant_length, :pant_width
  
-  def initialize(name:, age:)
+  def initialize(name, birthday, hair_color, eye_color, height, weight, handed, complexion, t_shirt_size, wrist_size, glove_size, pant_length, pant_width)
     @name = name
     @age = age
   end
